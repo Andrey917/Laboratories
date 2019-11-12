@@ -2,8 +2,8 @@
 Дано ціле число N(>0). Якщо воно є ступенем числа 3, то вивести True, якщо ні - вивести False.
 """
 import re
-
 re_integer = re.compile("^[-+]{0,1}\d+$")
+
 
 def validator(pattern, promt):
     text = input(promt)
